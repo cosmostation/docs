@@ -1,11 +1,10 @@
 ---
 sidebar_position: 6
-description: Send transcation via Cosmostation Extension
 ---
 
 # Send Transcation
 
-
+Send transcation via Cosmostation Extension
 
 ### Code using @cosmostation/extension-client
 
@@ -32,7 +31,7 @@ const response = await window.cosmostation.cosmos.request({
 
 #### Response
 
-```typescript
+```typescript title=Model
 export type SendTransactionResponse = {
   tx_response: SendTransaction;
 };
@@ -61,7 +60,7 @@ export const SEND_TRANSACTION_MODE = {
 };
 ```
 
-```json
+```json title=Example
 {
   "tx_response": {
     "code": 0,

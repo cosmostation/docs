@@ -1,11 +1,10 @@
 ---
 sidebar_position: 3
-description: Using Cosmostation Extension accounts
 ---
 
 # Accounts
 
-
+Using Cosmostation Extension accounts.
 
 ## Get Accounts
 

@@ -1,19 +1,18 @@
 ---
 sidebar_position: 12
-description: Integrate cosmjs
 ---
 
 # Integrate cosmjs
 
-
+Integrate cosmjs.
 
 ## Add package
 
-```bash
+```bash title="yarn"
 yarn add @cosmostation/cosmos-client
 ```
 
-```bash
+```bash title="npm"
 npm install @cosmostation/cosmos-client
 ```
 
@@ -25,7 +24,7 @@ import { getOfflineSigner } from "@cosmostation/cosmos-client";
 const offlineSigner = await getOfflineSigner(CHAIN_ID);
 ```
 
-```js
+```js title=Example
 import { getOfflineSigner } from "@cosmostation/cosmos-client";
 import { GasPrice, calculateFee } from "@cosmjs/stargate";
 import { SigningCosmWasmClient } from "@cosmjs/cosmwasm-stargate";

@@ -4,8 +4,15 @@ sidebar_position: 2
 
 # Use web3.js
 
-- [npmjs](https://www.npmjs.com/package/web3)
-- [docs](https://web3js.readthedocs.io)
+{% embed url="https://www.npmjs.com/package/web3" %}
+Npm Web3 Library
+{% endembed %}
+
+{% embed url="https://web3js.readthedocs.io/en/v1.8.1/" %}
+Web3 Documentation
+{% endembed %}
+
+
 
 ```typescript
 import Web3 from "web3";

@@ -1,11 +1,10 @@
 ---
 sidebar_position: 4
-description: Get Network via Cosmostation Extension
 ---
 
 # Network
 
-
+Get Network via Cosmostation Extension
 
 ## Network
 
@@ -45,10 +44,10 @@ try {
 
 #### Response
 
-```typescript
+```typescript title=Model
 export type AptosNetworkResponse = string;
 ```
 
-```json
+```json title=Example
 "Mainnet"
 ```

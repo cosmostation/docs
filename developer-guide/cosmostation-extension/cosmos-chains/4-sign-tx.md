@@ -1,11 +1,10 @@
 ---
 sidebar_position: 4
-description: Sign transcation via Cosmostation Extension
 ---
 
 # Sign Transcations
 
-
+Sign transcation via Cosmostation Extension
 
 ## Sign Amino
 
@@ -95,7 +94,7 @@ const response = await window.cosmostation.cosmos.request({
 
 #### Response
 
-```typescript
+```typescript title=Model
 export type SignAminoResponse = {
   signature: string;
   pub_key: { type: string; value: string };
@@ -124,7 +123,7 @@ export type Msg<T = unknown> = {
 export type Fee = { amount: Amount[]; gas: string };
 ```
 
-```json
+```json title=Example
 {
   "pub_key": {
     "type": "tendermint/PubKeySecp256k1",
@@ -241,7 +240,7 @@ const response = await window.cosmostation.cosmos.request({
 
 #### Response
 
-```typescript
+```typescript title=Model
 export type SignDirectDoc = {
   chain_id: string;
   body_bytes: Uint8Array;
@@ -256,7 +255,7 @@ export type SignDirectResponse = {
 };
 ```
 
-```json
+```json title=Example
 {
   "pub_key": {
     "type": "tendermint/PubKeySecp256k1",

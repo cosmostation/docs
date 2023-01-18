@@ -1,11 +1,10 @@
 ---
 sidebar_position: 3
-description: Execute Move Call via Cosmostation Extension
 ---
 
 # Execute Move Call
 
-
+Execute Move Call via Cosmostation Extension
 
 ```javascript
 const payload = {
@@ -28,9 +27,9 @@ const response = await window.cosmostation.sui.executeMoveCall(payload);
 
 #### request
 
-* [MoveCallTransaction](https://github.com/MystenLabs/sui/blob/main/sdk/typescript/src/signers/txn-data-serializers/txn-data-serializer.ts#L88)
+- [MoveCallTransaction](https://github.com/MystenLabs/sui/blob/main/sdk/typescript/src/signers/txn-data-serializers/txn-data-serializer.ts#L88)
 
-```typescript
+```typescript title=Model
 export interface MoveCallTransaction {
   packageObjectId: ObjectId;
   module: string;
@@ -44,17 +43,17 @@ export interface MoveCallTransaction {
 
 #### Response
 
-* [CertifiedTransaction](https://github.com/MystenLabs/sui/blob/main/sdk/typescript/src/types/transactions.ts#L128)
-* [TransactionEffects](https://github.com/MystenLabs/sui/blob/main/sdk/typescript/src/types/transactions.ts#L162)
+- [CertifiedTransaction](https://github.com/MystenLabs/sui/blob/main/sdk/typescript/src/types/transactions.ts#L128)
+- [TransactionEffects](https://github.com/MystenLabs/sui/blob/main/sdk/typescript/src/types/transactions.ts#L162)
 
-```typescript
+```typescript title=Model
 export type SuiTransactionResponse = {
   certificate: CertifiedTransaction;
   effects: TransactionEffects;
 };
 ```
 
-```json
+```json title=Example
 {
   "certificate": {
     "transactionDigest": "QTWZUMmBzPReVUPjxPRPs271Zve7C4rtCRHm8Cisz4x",

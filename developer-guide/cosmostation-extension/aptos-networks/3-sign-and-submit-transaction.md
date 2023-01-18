@@ -1,11 +1,10 @@
 ---
 sidebar_position: 3
-description: Sign And Submit transcation via Cosmostation Extension
 ---
 
 # Sign And Submit Transaction
 
-
+Sign And Submit transcation via Cosmostation Extension
 
 ## SignAndSubmitTransaction
 
@@ -67,7 +66,7 @@ try {
 
 #### request
 
-```typescript
+```typescript title=Model
 export type AptosSignPayload<T = unknown> = {
   function: string;
   type: string;
@@ -78,7 +77,7 @@ export type AptosSignPayload<T = unknown> = {
 
 #### Response
 
-```typescript
+```typescript title=Model
 export type AptosSignAndSubmitTransactionResponse = {
   hash: string;
   sender: string;
@@ -95,7 +94,7 @@ export type AptosSignAndSubmitTransactionResponse = {
 };
 ```
 
-```json
+```json title=Example
 {
   "hash": "0x2ca5cddb53929e9a6f348389fae9a5f8f4fe3906a04c8d8b2ee075d7bc0b3540",
   "sender": "0x9d8a438fe580db4f7b9e108a4bce46ad6647905495903f295d06458625913644",
@@ -171,7 +170,7 @@ try {
 
 #### request
 
-```typescript
+```typescript title=Model
 export type AptosSignPayload<T = unknown> = {
   function: string;
   type: string;
@@ -182,10 +181,10 @@ export type AptosSignPayload<T = unknown> = {
 
 #### Response
 
-```typescript
+```typescript title=Model
 export type AptosSignTransactionResponse = string;
 ```
 
-```json
+```json title=Example
 "0x9d8a438fe580db4f7b9e108a4bce46ad6647905495903f295d06458625913644100000000000000002000000000000000000000000000000000000000000000000000000000000000104636f696e087472616e73666572010700000000000000000000000000000000000000000000000000000000000000010a6170746f735f636f696e094170746f73436f696e00022084b0d6b75cd160f1e46a7d18b567e79d79898e1a6487795a83e60d29291d94d60840420f0000000000f8030000000000006400000000000000ccc36d6300000000010020503603cb3ea1801805b952d9d4c6a7302dddfa78cc15042e78132ee907e6b48f40a58ef2b76eec70a2a538cd7e2faa97def87576ba766feeeb4cd884e9d848fad93cd2c262235b00915be049edcba0046aed6bbd6823a76051fb1bd83791949508"
 ```

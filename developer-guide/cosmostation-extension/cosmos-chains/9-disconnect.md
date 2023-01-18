@@ -1,11 +1,10 @@
 ---
 sidebar_position: 9
-description: Disconnect from Dapp
 ---
 
 # Disconnect
 
-
+Disconnect from Dapp
 
 ### Code using @cosmostation/extension-client
 
@@ -23,10 +22,10 @@ const response = await window.cosmostation.cosmos.request({
 
 #### Response
 
-```typescript
+```typescript title="Model"
 type DisconnectResponse = null;
 ```
 
-```json
+```json title="Example"
 null
 ```

@@ -1,11 +1,10 @@
 ---
 sidebar_position: 2
-description: connect and get Account via Cosmostation Extension
 ---
 
 # Connect, Account
 
-
+connect and get Account via Cosmostation Extension
 
 ## Connect
 
@@ -44,14 +43,14 @@ try {
 
 #### Response
 
-```typescript
+```typescript title=Model
 export type AptosConnectResponse = {
   address: string;
   publicKey: string;
 };
 ```
 
-```json
+```json title=Example
 {
   "address": "0x9d8a438fe580db4f7b9e108a4bce46ad6647905495903f295d06458625913644",
   "publicKey": "0x503603cb3ea1801805b952d9d4c6a7302dddfa78cc15042e78132ee907e6b48f"
@@ -96,14 +95,14 @@ try {
 
 #### Response
 
-```typescript
+```typescript title=Model
 export type AptosAccountResponse = {
   address: string;
   publicKey: string;
 };
 ```
 
-```json
+```json title=Example
 {
   "address": "0x9d8a438fe580db4f7b9e108a4bce46ad6647905495903f295d06458625913644",
   "publicKey": "0x503603cb3ea1801805b952d9d4c6a7302dddfa78cc15042e78132ee907e6b48f"

@@ -1,15 +1,12 @@
 ---
 sidebar_position: 7
-description: CW20 token via Cosmostation Extension
 ---
 
 # CW20 token
 
-{% hint style="warning" %}
-**`@cosmostation/extension-client >= 0.1.7`**
-{% endhint %}
+`@cosmostation/extension-client >= 0.1.7`
 
-
+CW20 token via Cosmostation Extension
 
 ## Add CW20 Tokens
 
@@ -59,11 +56,11 @@ const response = await window.cosmostation.cosmos.request({
 
 #### Response
 
-```typescript
+```typescript title=Model
 export type AddCW20TokenResponse = null;
 ```
 
-```json
+```json title=Example
 null
 ```
 
@@ -97,11 +94,11 @@ const response = await window.cosmostation.cosmos.request({
 
 #### Response
 
-```typescript
+```typescript title=Model
 export type getCW20TokenBalanceResponse = string;
 ```
 
-```json
+```json title=Example
 "1331775394"
 ```
 
@@ -133,7 +130,7 @@ const response = await window.cosmostation.cosmos.request({
 
 #### Response
 
-```typescript
+```typescript title=Model
 export type getCW20TokenInfoResponse = {
   decimals: number;
   name: string;
@@ -142,7 +139,7 @@ export type getCW20TokenInfoResponse = {
 };
 ```
 
-```json
+```json title=Example
 {
   "name": "NETA",
   "symbol": "NETA",
