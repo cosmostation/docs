@@ -1,10 +1,11 @@
 ---
 sidebar_position: 1
+description: Cosmostation extension support various chains
 ---
 
 # Provider
 
-Cosmostation extension support various chains.
+
 
 ```javascript
 const sui = () => {

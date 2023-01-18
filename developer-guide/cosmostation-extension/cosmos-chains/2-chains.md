@@ -1,10 +1,11 @@
 ---
 sidebar_position: 2
+description: Get supported chains and add specific chains for using Cosmostation Extension
 ---
 
 # Chains
 
-Get supported chains and add specific chains for using Cosmostation Extension.
+
 
 ## Add chains
 
@@ -72,11 +73,11 @@ await window.cosmostation.cosmos.request({
 
 #### Response
 
-```typescript title="Model"
+```typescript
 type addChainResponse = boolean;
 ```
 
-```json title="Example"
+```json
 true
 ```
 
@@ -143,14 +144,14 @@ const supportedChains = await window.cosmostation.cosmos.request({
 
 #### Response
 
-```typescript title="Model"
+```typescript
 type SupportedChainNamesResponse = {
   official: string[]; // lowercase
   unofficial: string[]; // lowercase
 };
 ```
 
-```json title="Example"
+```json
 {
   "official": ["cosmos", "osmosis"],
   "unofficial": ["test"]
@@ -175,14 +176,14 @@ const supportedChainIds = await window.cosmostation.cosmos.request({
 
 #### Response
 
-```typescript title="Model"
+```typescript
 type SupportedChainIdsResponse = {
   official: string[];
   unofficial: string[];
 };
 ```
 
-```json title="Example"
+```json
 {
   "official": ["cosmoshub-4", "gravity-bridge-3"],
   "unofficial": ["columbus-5", "agoric-3"]
@@ -207,11 +208,11 @@ const activatedChains = await window.cosmostation.cosmos.request({
 
 #### Response
 
-```typescript title="Model"
+```typescript
 type ActivatedChainNamesResponse = string[]; // lowercase
 ```
 
-```json title="Example"
+```json
 ["cosmos", "osmosis"]
 ```
 
@@ -233,10 +234,10 @@ const activatedChainIds = await window.cosmostation.cosmos.request({
 
 #### Response
 
-```typescript title="Model"
+```typescript
 type ActivatedChainIdsResponse = string[];
 ```
 
-```json title="Example"
+```json
 ["cosmoshub-4", "gravity-bridge-3"]
 ```

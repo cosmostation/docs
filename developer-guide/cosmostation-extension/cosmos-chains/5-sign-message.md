@@ -1,10 +1,11 @@
 ---
 sidebar_position: 5
+description: Sign Message via Cosmostation Extension
 ---
 
 # Sign Message
 
-Sign Message via Cosmostation Extension
+
 
 ## Sign Message
 
@@ -46,14 +47,14 @@ const response = await window.cosmostation.cosmos.request({
 
 #### Response
 
-```typescript title=Model
+```typescript
 export type SignMessageResponse = {
   signature: string;
   pub_key: { type: string; value: string };
 };
 ```
 
-```json title=Example
+```json
 {
   "pub_key": {
     "type": "tendermint/PubKeySecp256k1",
@@ -120,10 +121,10 @@ const result = await window.cosmostation.cosmos.request({
 
 #### Response
 
-```typescript title=Model
+```typescript
 export type VerifyMessageResponse = boolean;
 ```
 
-```json title=Example
+```json
 true
 ```

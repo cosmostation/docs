@@ -1,10 +1,11 @@
 ---
 sidebar_position: 2
+description: connect and get Account via Cosmostation Extension
 ---
 
 # Connect And Get Accounts
 
-connect and get Account via Cosmostation Extension
+
 
 ```javascript
 const response = await window.cosmostation.sui.connect();
@@ -19,11 +20,11 @@ const response = await window.cosmostation.sui.connect([
 
 #### Response
 
-```typescript title=Model
+```typescript
 export type SuiConnectResponse = boolean;
 ```
 
-```json title=Example
+```json
 true
 ```
 
@@ -41,10 +42,10 @@ const publicKey = await window.cosmostation.sui.getPublicKey();
 
 #### Response
 
-```typescript title=Model
+```typescript
 export type SuiAccountResponse = string[];
 ```
 
-```json title=Example
+```json
 ["0xd2d030d4339531d9cb442caf4be7bb954fddedb4"]
 ```

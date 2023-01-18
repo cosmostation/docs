@@ -1,10 +1,11 @@
 ---
 sidebar_position: 10
+description: Account change event
 ---
 
 # Event
 
-Account change event
+
 
 ## onAccountChanged
 

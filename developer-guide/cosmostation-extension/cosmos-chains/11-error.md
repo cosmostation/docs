@@ -1,10 +1,11 @@
 ---
 sidebar_position: 11
+description: Error descriptions
 ---
 
 # Error
 
-Error description
+
 
 | Code   | Model | Description                                                              |
 | ------ | ----- | ------------------------------------------------------------------------ |
