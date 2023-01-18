@@ -23,13 +23,13 @@ const accoutn = await window.cosmostation.cosmos.request({
 });
 ```
 
-> ### If connected successfully, it will look like below.
+> #### If connected successfully, it will look like below.
 >
-> ![Provider](/img/developer/extension/2-provider-connected.png)
+> <img src="../../../img/developer/extension/2-provider-connected.png" alt="Provider" data-size="original">
 
 #### Response
 
-```typescript title="Model"
+```typescript
 type AccountResponse = {
   name: string;
   address: string;
@@ -38,7 +38,7 @@ type AccountResponse = {
 };
 ```
 
-```json title="Example"
+```json
 {
   "name": "account name",
   "address": "cosmos1wgeoiheoighwoighwioeghoweghoiweghiow",
@@ -82,7 +82,7 @@ const accoutn = await window.cosmostation.cosmos.request({
 
 #### Response
 
-```typescript title=Model
+```typescript
 type RequestAccountResponse = {
   name: string;
   address: string;
@@ -91,7 +91,7 @@ type RequestAccountResponse = {
 };
 ```
 
-```json title=Example
+```json
 {
   "name": "account name",
   "address": "cosmos1wgeoiheoighwoighwioeghoweghoiweghiow",
