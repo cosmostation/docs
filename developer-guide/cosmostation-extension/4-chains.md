@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Chains
 
 Cosmostation Wallet Extension supports various PoS networks.
@@ -18,4 +14,4 @@ Cosmostation Wallet Extension supports various PoS networks.
 
 `Step 3` Selected chains are also visible on the top right side of wallet details.
 
-![Add & Remove chains](/img/guide/extension/chains/support.png)
+![Add & Remove chains](../../img/guide/extension/chains/support.png)

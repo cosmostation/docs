@@ -45,12 +45,16 @@
 * [User Guide](user-guide/README.md)
   * [Cosmostation Mobile Wallet](<User Guide/1-cosmostation-mobile-wallet.md>)
   * [Cosmostation Extension](user-guide/cosmostation-extension/README.md)
-    * [Introduction](user-guide/cosmostation-extension/1-introduction.md)
+    * [Introduction](developer-guide/cosmostation-extension/1-introduction.md)
     * [Account](user-guide/cosmostation-extension/account/README.md)
       * [Introduction](user-guide/cosmostation-extension/account/1-introduction.md)
       * [Add Account](user-guide/cosmostation-extension/account/2-add-account.md)
       * [Add Ledger Account](user-guide/cosmostation-extension/account/3-add-ledger-account.md)
-    * [Transfer coins](user-guide/cosmostation-extension/3-transfer-coins.md)
-    * [Chains](user-guide/cosmostation-extension/4-chains.md)
-    * [dApp](user-guide/cosmostation-extension/5-dapps.md)
-    * [Settings](user-guide/cosmostation-extension/6-settings.md)
+    * [Transfer coins](developer-guide/cosmostation-extension/3-transfer-coins.md)
+    * [Chains](developer-guide/cosmostation-extension/4-chains.md)
+    * [dApp](developer-guide/cosmostation-extension/5-dapps.md)
+    * [Settings](developer-guide/cosmostation-extension/6-settings.md)
+
+## Group 1
+
+* [Group Test 01](group-1/group-test-01.md)

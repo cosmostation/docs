@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Introduction
 
 What is Cosmostation Wallet Extension?
@@ -14,7 +10,7 @@ To download Cosmostation Wallet Extension, click this [link](https://chrome.goog
 >
 > ### Wallet detail page
 >
-> ![](../../img/guide/extension/introduction/detail.png)
+> <img src="../../img/guide/extension/introduction/detail.png" alt="" data-size="original">
 >
 > * Manage your account by clicking ![](../../img/guide/extension/introduction/account.png). Click [here](../../docs/User%20Guide/Cosmostation%20Extension/Account/introduction/) for more information.
 > * Send & deposit your tokens. Click [here](../../docs/User%20Guide/Cosmostation%20Extension/transfer-coins/) for more information.
