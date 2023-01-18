@@ -54,4 +54,3 @@
       * [Introduction](user-guide/cosmostation-extension/account/1-introduction.md)
       * [Add Account](user-guide/cosmostation-extension/account/2-add-account.md)
       * [Add Ledger Account](user-guide/cosmostation-extension/account/3-add-ledger-account.md)
-    * [Account](user-guide/cosmostation-extension/account-1.md)
