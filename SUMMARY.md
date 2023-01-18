@@ -55,6 +55,7 @@
     * [dApp](developer-guide/cosmostation-extension/5-dapps.md)
     * [Settings](developer-guide/cosmostation-extension/6-settings.md)
 
-## Group 1
+## Mintscan
 
-* [Group Test 01](group-1/group-test-01.md)
+* [Embeds](mintscan/embeds/README.md)
+  * [IBC Network](mintscan/embeds/ibc-network.md)
